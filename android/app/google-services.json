@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "288563710089",
+    "project_id": "auth-tutorial-c3468",
+    "storage_bucket": "auth-tutorial-c3468.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288563710089:android:cae1331dddb4c5c919de58",
+        "android_client_info": {
+          "package_name": "com.example.loginui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288563710089-enkhpu0n0lvbmet1tnsqa9jehiun4pvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYy41kvFTGIo-OdC8KwdIvnnB7cExk5Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288563710089-enkhpu0n0lvbmet1tnsqa9jehiun4pvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
