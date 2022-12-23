@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:loginui/components/my_button.dart';
 import 'package:loginui/components/my_textfield.dart';
 import 'package:loginui/components/square_tile.dart';
+import 'package:loginui/services/auth_services.dart';
 
 class RegisterPage extends StatefulWidget {
   final Function()? onTap;
@@ -175,11 +176,17 @@ class _RegisterPageState extends State<RegisterPage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     //google button
-                    SquareTile(imagePath: 'lib/images/google.png'),
+                    SquareTile(
+                      imagePath: 'lib/images/google.png',
+                      onTap: () => AuthService().signInWithGoogle(),
+                    ),
                     SizedBox(
                       width: 25,
                     ),
-                    SquareTile(imagePath: 'lib/images/apple.png'),
+                    SquareTile(
+                      imagePath: 'lib/images/apple.png',
+                      onTap: () {},
+                    ),
                   ],
                 ),
 

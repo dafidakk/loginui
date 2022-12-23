@@ -1,0 +1,1 @@
+keytool -list -v -keystore "C:\Users\amper\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
